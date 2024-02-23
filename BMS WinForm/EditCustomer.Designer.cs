@@ -56,7 +56,7 @@ namespace BMS_WinForm
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(220, 137);
+            this.label1.Location = new System.Drawing.Point(219, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(133, 26);
             this.label1.TabIndex = 0;
@@ -66,7 +66,7 @@ namespace BMS_WinForm
             // 
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(526, 134);
+            this.txtName.Location = new System.Drawing.Point(525, 134);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(347, 32);
             this.txtName.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace BMS_WinForm
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(197, 177);
+            this.label2.Location = new System.Drawing.Point(196, 177);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(179, 26);
             this.label2.TabIndex = 2;
@@ -97,7 +97,7 @@ namespace BMS_WinForm
             // 
             this.txtUserName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.Location = new System.Drawing.Point(526, 174);
+            this.txtUserName.Location = new System.Drawing.Point(525, 174);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(347, 32);
             this.txtUserName.TabIndex = 4;
@@ -106,7 +106,7 @@ namespace BMS_WinForm
             // 
             this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(526, 214);
+            this.txtPassword.Location = new System.Drawing.Point(525, 214);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(347, 32);
             this.txtPassword.TabIndex = 5;
@@ -220,7 +220,7 @@ namespace BMS_WinForm
             // 
             this.txtPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhoneNumber.Location = new System.Drawing.Point(526, 334);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(525, 334);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(347, 32);
             this.txtPhoneNumber.TabIndex = 11;
@@ -230,7 +230,7 @@ namespace BMS_WinForm
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(179, 337);
+            this.label7.Location = new System.Drawing.Point(178, 337);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(215, 26);
             this.label7.TabIndex = 12;
@@ -241,7 +241,7 @@ namespace BMS_WinForm
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(171, 377);
+            this.label6.Location = new System.Drawing.Point(170, 377);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(231, 26);
             this.label6.TabIndex = 10;
@@ -251,7 +251,7 @@ namespace BMS_WinForm
             // 
             this.txtAccountNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtAccountNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAccountNumber.Location = new System.Drawing.Point(526, 374);
+            this.txtAccountNumber.Location = new System.Drawing.Point(525, 374);
             this.txtAccountNumber.Name = "txtAccountNumber";
             this.txtAccountNumber.Size = new System.Drawing.Size(347, 32);
             this.txtAccountNumber.TabIndex = 13;
@@ -271,7 +271,7 @@ namespace BMS_WinForm
             // 
             this.txtTotalMoney.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalMoney.Location = new System.Drawing.Point(526, 414);
+            this.txtTotalMoney.Location = new System.Drawing.Point(525, 414);
             this.txtTotalMoney.Name = "txtTotalMoney";
             this.txtTotalMoney.Size = new System.Drawing.Size(347, 32);
             this.txtTotalMoney.TabIndex = 15;
@@ -281,7 +281,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.14925F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.85075F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 444F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 445F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtName, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 2);
@@ -325,8 +325,7 @@ namespace BMS_WinForm
             this.label9.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label9, 2);
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Image = global::BMS_WinForm.Properties.Resources.blueback;
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.label9.Location = new System.Drawing.Point(410, 47);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(197, 36);
@@ -336,15 +335,16 @@ namespace BMS_WinForm
             // btnEdit
             // 
             this.btnEdit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Image = global::BMS_WinForm.Properties.Resources.blueback;
+            this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdit.Font = new System.Drawing.Font("Roboto Condensed", 13F);
+            this.btnEdit.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.Location = new System.Drawing.Point(604, 495);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(190, 40);
             this.btnEdit.TabIndex = 17;
             this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click_1);
             // 
             // EditCustomer

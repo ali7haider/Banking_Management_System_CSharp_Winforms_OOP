@@ -420,5 +420,35 @@
   <ItemGroup>
     <None Include="Resources\logo 2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-Menu-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new iconos\cil-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -72,14 +72,14 @@ namespace BMS_WinForm
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 187F));
             this.tableLayoutPanel2.Controls.Add(this.btnSearch, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(34, 227);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 201F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 220F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(511, 262);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
@@ -90,9 +90,9 @@ namespace BMS_WinForm
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(383, 3);
+            this.btnSearch.Location = new System.Drawing.Point(327, 3);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(125, 55);
+            this.btnSearch.Size = new System.Drawing.Size(181, 36);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;

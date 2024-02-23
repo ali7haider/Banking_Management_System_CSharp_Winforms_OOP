@@ -55,7 +55,7 @@ namespace BMS_WinForm
             // 
             this.pictureBox1.BackgroundImage = global::BMS_WinForm.Properties.Resources.kindpng_4952535;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(33, 84);
+            this.pictureBox1.Location = new System.Drawing.Point(55, 124);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(346, 401);
             this.pictureBox1.TabIndex = 0;

@@ -140,15 +140,16 @@ namespace BMS_WinForm
             // btnRefresh
             // 
             this.btnRefresh.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefresh.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnRefresh.ForeColor = System.Drawing.Color.White;
-            this.btnRefresh.Image = global::BMS_WinForm.Properties.Resources.blueback;
             this.btnRefresh.Location = new System.Drawing.Point(488, 3);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(120, 33);
             this.btnRefresh.TabIndex = 6;
             this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // ViewCustomer

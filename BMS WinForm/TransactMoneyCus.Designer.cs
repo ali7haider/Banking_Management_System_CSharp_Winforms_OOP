@@ -64,7 +64,7 @@ namespace BMS_WinForm
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(310, 233);
+            this.label3.Location = new System.Drawing.Point(309, 233);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(147, 29);
             this.label3.TabIndex = 5;
@@ -74,9 +74,9 @@ namespace BMS_WinForm
             // 
             this.dateTransactMoney.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTransactMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTransactMoney.Location = new System.Drawing.Point(310, 265);
+            this.dateTransactMoney.Location = new System.Drawing.Point(309, 265);
             this.dateTransactMoney.Name = "dateTransactMoney";
-            this.dateTransactMoney.Size = new System.Drawing.Size(551, 36);
+            this.dateTransactMoney.Size = new System.Drawing.Size(552, 36);
             this.dateTransactMoney.TabIndex = 6;
             // 
             // txtTransactMoney
@@ -85,34 +85,36 @@ namespace BMS_WinForm
             this.txtTransactMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTransactMoney.Location = new System.Drawing.Point(20, 265);
             this.txtTransactMoney.Name = "txtTransactMoney";
-            this.txtTransactMoney.Size = new System.Drawing.Size(284, 36);
+            this.txtTransactMoney.Size = new System.Drawing.Size(283, 36);
             this.txtTransactMoney.TabIndex = 1;
             // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 185F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161F));
             this.tableLayoutPanel2.Controls.Add(this.btnComfirm, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(20, 309);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 98F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(284, 167);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 113F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(283, 167);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // btnComfirm
             // 
+            this.btnComfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnComfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnComfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComfirm.ForeColor = System.Drawing.Color.White;
-            this.btnComfirm.Location = new System.Drawing.Point(102, 3);
+            this.btnComfirm.Location = new System.Drawing.Point(125, 3);
             this.btnComfirm.Name = "btnComfirm";
-            this.btnComfirm.Size = new System.Drawing.Size(179, 63);
+            this.btnComfirm.Size = new System.Drawing.Size(155, 48);
             this.btnComfirm.TabIndex = 2;
             this.btnComfirm.Text = "Confirm";
-            this.btnComfirm.UseVisualStyleBackColor = true;
+            this.btnComfirm.UseVisualStyleBackColor = false;
             this.btnComfirm.Click += new System.EventHandler(this.btnComfirm_Click);
             // 
             // label2
@@ -132,7 +134,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.153846F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.667482F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.25428F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 556F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 557F));
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtTransactMoney, 2, 2);
@@ -223,14 +225,16 @@ namespace BMS_WinForm
             // btnViewTransactHistory
             // 
             this.btnViewTransactHistory.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnViewTransactHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnViewTransactHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewTransactHistory.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnViewTransactHistory.ForeColor = System.Drawing.Color.White;
-            this.btnViewTransactHistory.Image = global::BMS_WinForm.Properties.Resources.blueback;
-            this.btnViewTransactHistory.Location = new System.Drawing.Point(490, 36);
+            this.btnViewTransactHistory.Location = new System.Drawing.Point(615, 44);
             this.btnViewTransactHistory.Name = "btnViewTransactHistory";
-            this.btnViewTransactHistory.Size = new System.Drawing.Size(348, 58);
+            this.btnViewTransactHistory.Size = new System.Drawing.Size(223, 43);
             this.btnViewTransactHistory.TabIndex = 4;
             this.btnViewTransactHistory.Text = "View Transact History";
-            this.btnViewTransactHistory.UseVisualStyleBackColor = true;
+            this.btnViewTransactHistory.UseVisualStyleBackColor = false;
             this.btnViewTransactHistory.Click += new System.EventHandler(this.btnViewTransactHistory_Click);
             // 
             // r

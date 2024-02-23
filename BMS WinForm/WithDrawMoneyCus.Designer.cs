@@ -48,7 +48,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.153846F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.667482F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.25428F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 551F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 553F));
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtWithDrawMoney, 2, 2);
@@ -89,20 +89,22 @@ namespace BMS_WinForm
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 204F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(288, 262);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 213F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(286, 262);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // btnComfirm
             // 
-            this.btnComfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(203)))));
+            this.btnComfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComfirm.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnComfirm.ForeColor = System.Drawing.Color.White;
-            this.btnComfirm.Location = new System.Drawing.Point(106, 3);
+            this.btnComfirm.Location = new System.Drawing.Point(104, 3);
             this.btnComfirm.Name = "btnComfirm";
-            this.btnComfirm.Size = new System.Drawing.Size(179, 52);
+            this.btnComfirm.Size = new System.Drawing.Size(179, 43);
             this.btnComfirm.TabIndex = 2;
             this.btnComfirm.Text = "Confirm";
-            this.btnComfirm.UseVisualStyleBackColor = true;
+            this.btnComfirm.UseVisualStyleBackColor = false;
             this.btnComfirm.Click += new System.EventHandler(this.btnComfirm_Click);
             // 
             // txtWithDrawMoney
@@ -111,16 +113,16 @@ namespace BMS_WinForm
             this.txtWithDrawMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWithDrawMoney.Location = new System.Drawing.Point(20, 162);
             this.txtWithDrawMoney.Name = "txtWithDrawMoney";
-            this.txtWithDrawMoney.Size = new System.Drawing.Size(288, 36);
+            this.txtWithDrawMoney.Size = new System.Drawing.Size(286, 36);
             this.txtWithDrawMoney.TabIndex = 1;
             // 
             // dateWithDrawMoney
             // 
             this.dateWithDrawMoney.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateWithDrawMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateWithDrawMoney.Location = new System.Drawing.Point(314, 162);
+            this.dateWithDrawMoney.Location = new System.Drawing.Point(312, 162);
             this.dateWithDrawMoney.Name = "dateWithDrawMoney";
-            this.dateWithDrawMoney.Size = new System.Drawing.Size(547, 36);
+            this.dateWithDrawMoney.Size = new System.Drawing.Size(549, 36);
             this.dateWithDrawMoney.TabIndex = 6;
             // 
             // label3
@@ -128,9 +130,9 @@ namespace BMS_WinForm
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(314, 116);
+            this.label3.Location = new System.Drawing.Point(312, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(547, 43);
+            this.label3.Size = new System.Drawing.Size(549, 43);
             this.label3.TabIndex = 5;
             this.label3.Text = "Enter Date :";
             // 
@@ -141,22 +143,23 @@ namespace BMS_WinForm
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 116);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 43);
+            this.label1.Size = new System.Drawing.Size(286, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Amount :";
             // 
             // btnWithDrawHistory
             // 
             this.btnWithDrawHistory.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnWithDrawHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnWithDrawHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWithDrawHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWithDrawHistory.ForeColor = System.Drawing.Color.White;
-            this.btnWithDrawHistory.Image = global::BMS_WinForm.Properties.Resources.blueback;
-            this.btnWithDrawHistory.Location = new System.Drawing.Point(634, 30);
+            this.btnWithDrawHistory.Location = new System.Drawing.Point(634, 32);
             this.btnWithDrawHistory.Name = "btnWithDrawHistory";
-            this.btnWithDrawHistory.Size = new System.Drawing.Size(227, 55);
+            this.btnWithDrawHistory.Size = new System.Drawing.Size(227, 51);
             this.btnWithDrawHistory.TabIndex = 7;
-            this.btnWithDrawHistory.Text = "View WithDraw History";
-            this.btnWithDrawHistory.UseVisualStyleBackColor = true;
+            this.btnWithDrawHistory.Text = "View Withdraw History";
+            this.btnWithDrawHistory.UseVisualStyleBackColor = false;
             this.btnWithDrawHistory.Click += new System.EventHandler(this.btnWithDrawHistory_Click);
             // 
             // WithDrawMoneyCus
