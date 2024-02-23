@@ -274,7 +274,6 @@ namespace BMS_WinForm
             // btnRefresh
             // 
             this.btnRefresh.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnRefresh.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.btnRefresh.ForeColor = System.Drawing.Color.White;
             this.btnRefresh.Location = new System.Drawing.Point(736, 449);
             this.btnRefresh.Name = "btnRefresh";

@@ -96,7 +96,6 @@ namespace BMS_WinForm
             // 
             // btnConfirm
             // 
-            this.btnConfirm.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirm.ForeColor = System.Drawing.Color.White;
             this.btnConfirm.Location = new System.Drawing.Point(106, 3);

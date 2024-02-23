@@ -85,7 +85,6 @@ namespace BMS_WinForm
             // 
             // btnSearch
             // 
-            this.btnSearch.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.btnSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Location = new System.Drawing.Point(384, 3);

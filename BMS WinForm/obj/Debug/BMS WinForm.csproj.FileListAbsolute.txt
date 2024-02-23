@@ -74,3 +74,42 @@ D:\Study\Semester 2\Object Oriented Programming\BMS WinForm Last Version\BMS Win
 D:\Study\Semester 2\Object Oriented Programming\BMS WinForm Last Version\BMS WinForm\obj\Debug\BMS WinForm.csproj.CoreCompileInputs.cache
 D:\Study\Semester 2\Object Oriented Programming\BMS WinForm Last Version\BMS WinForm\obj\Debug\BMS WinForm.exe
 D:\Study\Semester 2\Object Oriented Programming\BMS WinForm Last Version\BMS WinForm\obj\Debug\BMS WinForm.pdb
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS WinForm.csproj.AssemblyReference.cache
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS WinForm.csproj.SuggestedBindingRedirects.cache
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.AccountNumberSearch.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.AddUser.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.AdminFeedback.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.AdminHome.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.AdminWindow.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.BalanceDetailsCus.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CitySearch.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CustomerWindowPAge.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CustomerHome.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CustomerWindow.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.DepositHistory.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.DepositMoneyCus.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.EditCustomer.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.LogIn.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.GiveFeedback.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.HomeScreenOf_Cus.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.NameSearch.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.PhoneNumberSearch.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.practice.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.Properties.Resources.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.ReceivedMoney.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.SearchCustomer.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.SearchResult.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.TotalMoneyInBank.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.TransactHistory.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.r.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.UserNameSearch.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.ViewCustomer.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.WithDrawHistory.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.WithDrawMoneyCus.resources
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS WinForm.csproj.GenerateResource.cache
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS WinForm.csproj.CoreCompileInputs.cache
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS WinForm.exe
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS WinForm.pdb
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\bin\Debug\BMS WinForm.exe.config
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\bin\Debug\BMS WinForm.exe
+D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\bin\Debug\BMS WinForm.pdb

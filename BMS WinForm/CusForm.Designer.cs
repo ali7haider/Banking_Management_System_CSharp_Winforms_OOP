@@ -222,7 +222,6 @@ namespace BMS_WinForm
             // 
             // tableLayoutPanel11
             // 
-            this.tableLayoutPanel11.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.tableLayoutPanel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel11.ColumnCount = 1;
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 270F));
@@ -322,7 +321,6 @@ namespace BMS_WinForm
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.tableLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 270F));
@@ -701,7 +699,6 @@ namespace BMS_WinForm
             // 
             // tableLayoutPanel7
             // 
-            this.tableLayoutPanel7.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.tableLayoutPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel7.ColumnCount = 1;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 270F));

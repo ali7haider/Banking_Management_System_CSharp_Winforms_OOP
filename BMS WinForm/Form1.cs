@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BMS_WinForm.BL;
 using BMS_WinForm.DL;
+using System.Diagnostics;
 
 namespace BMS_WinForm
 {
@@ -36,8 +37,27 @@ namespace BMS_WinForm
         {
             
         }
+        private void GitHubLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string githubUrl = "https://github.com/ali7haider";
 
-        private void btnSignIn_Click_1(object sender, EventArgs e)
+            Process.Start(githubUrl);
+        }
+
+       
+
+        private void iconminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void iconcerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void btnLogIn_Click(object sender, EventArgs e)
         {
             string userName = txtUserName.Text;
             string password = txtPassword.Text;
@@ -54,8 +74,8 @@ namespace BMS_WinForm
                 else
                 {
                     this.Hide();
-                    AdminDL.setCurrent(User);                    
-                   CustomerWindowPAge Cus = new CustomerWindowPAge(AdminDL.Current);
+                    AdminDL.setCurrent(User);
+                    CustomerWindowPAge Cus = new CustomerWindowPAge(AdminDL.Current);
                     Cus.ShowDialog();
                 }
             }
@@ -64,11 +84,6 @@ namespace BMS_WinForm
                 MessageBox.Show("Invalid User");
             }
             clearFormData();
-        }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-            
         }
     }
 }

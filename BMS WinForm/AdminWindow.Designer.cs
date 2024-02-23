@@ -75,7 +75,6 @@ namespace BMS_WinForm
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackgroundImage = global::BMS_WinForm.Properties.Resources.bluebackground;
             this.tableLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 258F));
