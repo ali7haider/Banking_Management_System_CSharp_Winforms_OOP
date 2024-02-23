@@ -44,7 +44,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.153846F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.667482F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.25428F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 314F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 315F));
             this.tableLayoutPanel1.Controls.Add(this.txtSearchAccountNumber, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 0);
@@ -65,7 +65,7 @@ namespace BMS_WinForm
             this.txtSearchAccountNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearchAccountNumber.Location = new System.Drawing.Point(34, 119);
             this.txtSearchAccountNumber.Name = "txtSearchAccountNumber";
-            this.txtSearchAccountNumber.Size = new System.Drawing.Size(512, 36);
+            this.txtSearchAccountNumber.Size = new System.Drawing.Size(511, 36);
             this.txtSearchAccountNumber.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -80,19 +80,22 @@ namespace BMS_WinForm
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 201F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(512, 262);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(511, 262);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // btnSearch
             // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.btnSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(384, 3);
+            this.btnSearch.Location = new System.Drawing.Point(383, 3);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(125, 55);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label1
@@ -102,9 +105,9 @@ namespace BMS_WinForm
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(34, 87);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(276, 29);
+            this.label1.Size = new System.Drawing.Size(283, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Enter AccountNumber :";
+            this.label1.Text = "Enter Account Number :";
             // 
             // AccountNumberSearch
             // 

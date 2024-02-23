@@ -56,7 +56,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.14925F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.85075F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 406F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 407F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtName, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 2);
@@ -91,7 +91,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(710, 555);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(708, 597);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -99,16 +99,16 @@ namespace BMS_WinForm
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 137);
+            this.label1.Location = new System.Drawing.Point(63, 137);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(236, 26);
+            this.label1.Size = new System.Drawing.Size(234, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Name : ";
             // 
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(306, 133);
+            this.txtName.Location = new System.Drawing.Point(303, 133);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(347, 32);
             this.txtName.TabIndex = 1;
@@ -118,9 +118,9 @@ namespace BMS_WinForm
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(64, 177);
+            this.label2.Location = new System.Drawing.Point(63, 177);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(236, 26);
+            this.label2.Size = new System.Drawing.Size(234, 26);
             this.label2.TabIndex = 2;
             this.label2.Text = "Enter UserName : ";
             // 
@@ -129,16 +129,16 @@ namespace BMS_WinForm
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(64, 217);
+            this.label3.Location = new System.Drawing.Point(63, 217);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(236, 26);
+            this.label3.Size = new System.Drawing.Size(234, 26);
             this.label3.TabIndex = 3;
             this.label3.Text = "Enter Password : ";
             // 
             // txtUserName
             // 
             this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.Location = new System.Drawing.Point(306, 173);
+            this.txtUserName.Location = new System.Drawing.Point(303, 173);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(347, 32);
             this.txtUserName.TabIndex = 4;
@@ -146,7 +146,7 @@ namespace BMS_WinForm
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(306, 213);
+            this.txtPassword.Location = new System.Drawing.Point(303, 213);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(347, 32);
             this.txtPassword.TabIndex = 5;
@@ -156,9 +156,9 @@ namespace BMS_WinForm
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(64, 257);
+            this.label4.Location = new System.Drawing.Point(63, 257);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(236, 26);
+            this.label4.Size = new System.Drawing.Size(234, 26);
             this.label4.TabIndex = 6;
             this.label4.Text = "Select AccountType : ";
             // 
@@ -172,7 +172,7 @@ namespace BMS_WinForm
             "Saving ",
             "Current",
             "Default"});
-            this.cmbAccountType.Location = new System.Drawing.Point(306, 253);
+            this.cmbAccountType.Location = new System.Drawing.Point(303, 253);
             this.cmbAccountType.Name = "cmbAccountType";
             this.cmbAccountType.Size = new System.Drawing.Size(346, 34);
             this.cmbAccountType.TabIndex = 7;
@@ -184,9 +184,9 @@ namespace BMS_WinForm
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(64, 297);
+            this.label5.Location = new System.Drawing.Point(63, 297);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(236, 26);
+            this.label5.Size = new System.Drawing.Size(234, 26);
             this.label5.TabIndex = 8;
             this.label5.Text = "Select City : ";
             // 
@@ -253,7 +253,7 @@ namespace BMS_WinForm
             "Swabi",
             "Timergara",
             "Tank"});
-            this.cmbCity.Location = new System.Drawing.Point(306, 293);
+            this.cmbCity.Location = new System.Drawing.Point(303, 293);
             this.cmbCity.Name = "cmbCity";
             this.cmbCity.Size = new System.Drawing.Size(346, 34);
             this.cmbCity.TabIndex = 9;
@@ -264,7 +264,7 @@ namespace BMS_WinForm
             // 
             this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhoneNumber.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtPhoneNumber.Location = new System.Drawing.Point(306, 333);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(303, 333);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(347, 32);
             this.txtPhoneNumber.TabIndex = 11;
@@ -277,9 +277,9 @@ namespace BMS_WinForm
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(64, 337);
+            this.label7.Location = new System.Drawing.Point(63, 337);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(236, 26);
+            this.label7.Size = new System.Drawing.Size(234, 26);
             this.label7.TabIndex = 12;
             this.label7.Text = "Enter PhoneNumber : ";
             // 
@@ -288,9 +288,9 @@ namespace BMS_WinForm
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(64, 370);
+            this.label6.Location = new System.Drawing.Point(63, 370);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(236, 40);
+            this.label6.Size = new System.Drawing.Size(234, 40);
             this.label6.TabIndex = 10;
             this.label6.Text = "Enter AccountNumber : ";
             // 
@@ -298,7 +298,7 @@ namespace BMS_WinForm
             // 
             this.txtAccountNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAccountNumber.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtAccountNumber.Location = new System.Drawing.Point(306, 373);
+            this.txtAccountNumber.Location = new System.Drawing.Point(303, 373);
             this.txtAccountNumber.Name = "txtAccountNumber";
             this.txtAccountNumber.Size = new System.Drawing.Size(347, 32);
             this.txtAccountNumber.TabIndex = 13;
@@ -312,9 +312,9 @@ namespace BMS_WinForm
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(64, 417);
+            this.label8.Location = new System.Drawing.Point(63, 417);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(236, 26);
+            this.label8.Size = new System.Drawing.Size(234, 26);
             this.label8.TabIndex = 14;
             this.label8.Text = "Enter IntialDeposit : ";
             // 
@@ -322,7 +322,7 @@ namespace BMS_WinForm
             // 
             this.txtIntialDeposit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIntialDeposit.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtIntialDeposit.Location = new System.Drawing.Point(306, 413);
+            this.txtIntialDeposit.Location = new System.Drawing.Point(303, 413);
             this.txtIntialDeposit.Name = "txtIntialDeposit";
             this.txtIntialDeposit.Size = new System.Drawing.Size(347, 32);
             this.txtIntialDeposit.TabIndex = 15;
@@ -335,28 +335,29 @@ namespace BMS_WinForm
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.tableLayoutPanel1.SetColumnSpan(this.label9, 2);
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Roboto Condensed", 25F);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Image = global::BMS_WinForm.Properties.Resources.blueback;
-            this.label9.Location = new System.Drawing.Point(250, 47);
+            this.label9.Location = new System.Drawing.Point(226, 39);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(271, 36);
+            this.label9.Size = new System.Drawing.Size(316, 51);
             this.label9.TabIndex = 16;
             this.label9.Text = "Add New Account";
             // 
             // btnAdd
             // 
             this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Image = global::BMS_WinForm.Properties.Resources.blueback;
-            this.btnAdd.Location = new System.Drawing.Point(411, 495);
+            this.btnAdd.Location = new System.Drawing.Point(409, 495);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(190, 40);
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
             // AddUser
@@ -366,7 +367,7 @@ namespace BMS_WinForm
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "AddUser";
-            this.Size = new System.Drawing.Size(710, 555);
+            this.Size = new System.Drawing.Size(708, 597);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
