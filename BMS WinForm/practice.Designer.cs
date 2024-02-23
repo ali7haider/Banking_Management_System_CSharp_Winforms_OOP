@@ -49,7 +49,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.287554F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.144492F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 97.56796F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 168F));
             this.tableLayoutPanel1.Controls.Add(this.button1, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 0);
@@ -67,7 +67,7 @@ namespace BMS_WinForm
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button1.Location = new System.Drawing.Point(478, 141);
+            this.button1.Location = new System.Drawing.Point(477, 141);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 29);
             this.button1.TabIndex = 0;
@@ -92,7 +92,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 164F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(611, 270);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(610, 270);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // button2
@@ -111,7 +111,7 @@ namespace BMS_WinForm
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 41);
+            this.label2.Size = new System.Drawing.Size(106, 41);
             this.label2.TabIndex = 12;
             this.label2.Text = "Enter Amount :";
             // 
@@ -119,7 +119,7 @@ namespace BMS_WinForm
             // 
             this.txtDepositMoney.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtDepositMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDepositMoney.Location = new System.Drawing.Point(116, 3);
+            this.txtDepositMoney.Location = new System.Drawing.Point(115, 3);
             this.txtDepositMoney.Name = "txtDepositMoney";
             this.txtDepositMoney.Size = new System.Drawing.Size(492, 34);
             this.txtDepositMoney.TabIndex = 8;
@@ -128,7 +128,7 @@ namespace BMS_WinForm
             // 
             this.dateDepositMOney.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateDepositMOney.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateDepositMOney.Location = new System.Drawing.Point(116, 44);
+            this.dateDepositMOney.Location = new System.Drawing.Point(115, 44);
             this.dateDepositMOney.Name = "dateDepositMOney";
             this.dateDepositMOney.Size = new System.Drawing.Size(492, 34);
             this.dateDepositMOney.TabIndex = 10;
@@ -140,7 +140,7 @@ namespace BMS_WinForm
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 41);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 65);
+            this.label3.Size = new System.Drawing.Size(106, 65);
             this.label3.TabIndex = 11;
             this.label3.Text = "Select Date :";
             // 
@@ -150,7 +150,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.53872F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.46128F));
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(116, 109);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(115, 109);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36F));
@@ -163,7 +163,7 @@ namespace BMS_WinForm
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(168, 59);
+            this.label1.Location = new System.Drawing.Point(167, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(311, 48);
             this.label1.TabIndex = 0;
