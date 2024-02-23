@@ -47,7 +47,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 467F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(864, 492);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(848, 542);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // usersGV
@@ -74,7 +74,7 @@ namespace BMS_WinForm
             this.usersGV.RowTemplate.Height = 28;
             this.usersGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.usersGV.ShowEditingIcon = false;
-            this.usersGV.Size = new System.Drawing.Size(858, 488);
+            this.usersGV.Size = new System.Drawing.Size(842, 538);
             this.usersGV.TabIndex = 3;
             // 
             // AdminFeedback
@@ -83,7 +83,7 @@ namespace BMS_WinForm
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "AdminFeedback";
-            this.Size = new System.Drawing.Size(864, 492);
+            this.Size = new System.Drawing.Size(848, 542);
             this.Load += new System.EventHandler(this.AdminFeedback_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.usersGV)).EndInit();
