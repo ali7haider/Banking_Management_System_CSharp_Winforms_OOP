@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FDE005A2-5EE0-4801-A5B4-403B06A6EDA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BMS_WinForm</RootNamespace>
+    <AssemblyName>BMS WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountNumberSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountNumberSearch.Designer.cs">
+      <DependentUpon>AccountNumberSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFeedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminFeedback.Designer.cs">
+      <DependentUpon>AdminFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminWindow.Designer.cs">
+      <DependentUpon>AdminWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BalanceDetailsCus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BalanceDetailsCus.Designer.cs">
+      <DependentUpon>BalanceDetailsCus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\Admin.cs" />
+    <Compile Include="BL\Customer.cs" />
+    <Compile Include="BL\MUser.cs" />
+    <Compile Include="CitySearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CitySearch.Designer.cs">
+      <DependentUpon>CitySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CusForm.Designer.cs">
+      <DependentUpon>CusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerHome.Designer.cs">
+      <DependentUpon>CustomerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerWindow.Designer.cs">
+      <DependentUpon>CustomerWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepositHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositHistory.Designer.cs">
+      <DependentUpon>DepositHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepositMoneyCus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DepositMoneyCus.Designer.cs">
+      <DependentUpon>DepositMoneyCus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DL\AdminDL.cs" />
+    <Compile Include="DL\CustomerDL.cs" />
+    <Compile Include="DL\MUserDL.cs" />
+    <Compile Include="EditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCustomer.Designer.cs">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiveFeedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GiveFeedback.Designer.cs">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeScreenOf Cus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeScreenOf Cus.Designer.cs">
+      <DependentUpon>HomeScreenOf Cus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NameSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NameSearch.Designer.cs">
+      <DependentUpon>NameSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneNumberSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhoneNumberSearch.Designer.cs">
+      <DependentUpon>PhoneNumberSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="practice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="practice.Designer.cs">
+      <DependentUpon>practice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceivedMoney.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReceivedMoney.Designer.cs">
+      <DependentUpon>ReceivedMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchCustomer.Designer.cs">
+      <DependentUpon>SearchCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchResult.Designer.cs">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotalMoneyInBank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TotalMoneyInBank.Designer.cs">
+      <DependentUpon>TotalMoneyInBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactHistory.Designer.cs">
+      <DependentUpon>TransactHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactMoneyCus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TransactMoneyCus.Designer.cs">
+      <DependentUpon>TransactMoneyCus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserNameSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserNameSearch.Designer.cs">
+      <DependentUpon>UserNameSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewCustomer.Designer.cs">
+      <DependentUpon>ViewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WithDrawHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithDrawHistory.Designer.cs">
+      <DependentUpon>WithDrawHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WithDrawMoneyCus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WithDrawMoneyCus.Designer.cs">
+      <DependentUpon>WithDrawMoneyCus.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountNumberSearch.resx">
+      <DependentUpon>AccountNumberSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFeedback.resx">
+      <DependentUpon>AdminFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminWindow.resx">
+      <DependentUpon>AdminWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BalanceDetailsCus.resx">
+      <DependentUpon>BalanceDetailsCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CitySearch.resx">
+      <DependentUpon>CitySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CusForm.resx">
+      <DependentUpon>CusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerHome.resx">
+      <DependentUpon>CustomerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerWindow.resx">
+      <DependentUpon>CustomerWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositHistory.resx">
+      <DependentUpon>DepositHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositMoneyCus.resx">
+      <DependentUpon>DepositMoneyCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCustomer.resx">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiveFeedback.resx">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeScreenOf Cus.resx">
+      <DependentUpon>HomeScreenOf Cus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameSearch.resx">
+      <DependentUpon>NameSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNumberSearch.resx">
+      <DependentUpon>PhoneNumberSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="practice.resx">
+      <DependentUpon>practice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReceivedMoney.resx">
+      <DependentUpon>ReceivedMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCustomer.resx">
+      <DependentUpon>SearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchResult.resx">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalMoneyInBank.resx">
+      <DependentUpon>TotalMoneyInBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactHistory.resx">
+      <DependentUpon>TransactHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactMoneyCus.resx">
+      <DependentUpon>TransactMoneyCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserNameSearch.resx">
+      <DependentUpon>UserNameSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomer.resx">
+      <DependentUpon>ViewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithDrawHistory.resx">
+      <DependentUpon>WithDrawHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithDrawMoneyCus.resx">
+      <DependentUpon>WithDrawMoneyCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalbackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluebackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-40 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-view-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-view-40 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onlylogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-money-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-feedback-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customer-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_4952535.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_2472313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-safe-40.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

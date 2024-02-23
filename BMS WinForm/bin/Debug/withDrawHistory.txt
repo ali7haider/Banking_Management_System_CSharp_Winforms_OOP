@@ -1,0 +1,8 @@
+Ali,123,Wednesday,2 May 2022
+Karim,123,Wednesday, 1 June 2022
+Karim,1000,Wednesday, 1 June 2022
+Karim,3242,Wednesday, 1 June 2022
+T,1000,Thursday, 2 June 2022
+T,2000,Thursday, 2 June 2022
+T,1000,Thursday, 2 June 2022
+T,2000,Thursday, 2 June 2022
