@@ -41,21 +41,21 @@ namespace BMS_WinForm
             this.btnlogoInicio = new System.Windows.Forms.PictureBox();
             this.iconminimizar = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.customerHome1 = new BMS_WinForm.CustomerHome();
-            this.depositMoneyCus1 = new BMS_WinForm.DepositMoneyCus();
-            this.withDrawMoneyCus1 = new BMS_WinForm.WithDrawMoneyCus();
-            this.balanceDetailsCus1 = new BMS_WinForm.BalanceDetailsCus();
-            this.receivedMoney1 = new BMS_WinForm.ReceivedMoney();
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.iconrestaurar = new System.Windows.Forms.PictureBox();
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.btnCusLogOut = new System.Windows.Forms.Button();
             this.btnGiveFeedBack = new System.Windows.Forms.Button();
-            this.giveFeedback1 = new BMS_WinForm.GiveFeedback();
-            this.homeScreenOf_Cus1 = new BMS_WinForm.HomeScreenOf_Cus();
-            this.r1 = new BMS_WinForm.r();
             this.r2 = new BMS_WinForm.r();
+            this.r1 = new BMS_WinForm.r();
+            this.homeScreenOf_Cus1 = new BMS_WinForm.HomeScreenOf_Cus();
+            this.giveFeedback1 = new BMS_WinForm.GiveFeedback();
+            this.customerHome1 = new BMS_WinForm.CustomerHome();
+            this.depositMoneyCus1 = new BMS_WinForm.DepositMoneyCus();
+            this.withDrawMoneyCus1 = new BMS_WinForm.WithDrawMoneyCus();
+            this.balanceDetailsCus1 = new BMS_WinForm.BalanceDetailsCus();
+            this.receivedMoney1 = new BMS_WinForm.ReceivedMoney();
             ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).BeginInit();
@@ -148,6 +148,7 @@ namespace BMS_WinForm
             this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconcerrar.TabIndex = 1;
             this.iconcerrar.TabStop = false;
+            this.iconcerrar.Click += new System.EventHandler(this.iconcerrar_Click);
             // 
             // btnTransactMoney
             // 
@@ -252,6 +253,7 @@ namespace BMS_WinForm
             this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconminimizar.TabIndex = 4;
             this.iconminimizar.TabStop = false;
+            this.iconminimizar.Click += new System.EventHandler(this.iconminimizar_Click);
             // 
             // panelContenedor
             // 
@@ -271,46 +273,6 @@ namespace BMS_WinForm
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(709, 733);
             this.panelContenedor.TabIndex = 8;
-            // 
-            // customerHome1
-            // 
-            this.customerHome1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customerHome1.Location = new System.Drawing.Point(0, 0);
-            this.customerHome1.Name = "customerHome1";
-            this.customerHome1.Size = new System.Drawing.Size(709, 733);
-            this.customerHome1.TabIndex = 4;
-            // 
-            // depositMoneyCus1
-            // 
-            this.depositMoneyCus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.depositMoneyCus1.Location = new System.Drawing.Point(0, 0);
-            this.depositMoneyCus1.Name = "depositMoneyCus1";
-            this.depositMoneyCus1.Size = new System.Drawing.Size(709, 733);
-            this.depositMoneyCus1.TabIndex = 3;
-            // 
-            // withDrawMoneyCus1
-            // 
-            this.withDrawMoneyCus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.withDrawMoneyCus1.Location = new System.Drawing.Point(0, 0);
-            this.withDrawMoneyCus1.Name = "withDrawMoneyCus1";
-            this.withDrawMoneyCus1.Size = new System.Drawing.Size(709, 733);
-            this.withDrawMoneyCus1.TabIndex = 2;
-            // 
-            // balanceDetailsCus1
-            // 
-            this.balanceDetailsCus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.balanceDetailsCus1.Location = new System.Drawing.Point(0, 0);
-            this.balanceDetailsCus1.Name = "balanceDetailsCus1";
-            this.balanceDetailsCus1.Size = new System.Drawing.Size(709, 733);
-            this.balanceDetailsCus1.TabIndex = 1;
-            // 
-            // receivedMoney1
-            // 
-            this.receivedMoney1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.receivedMoney1.Location = new System.Drawing.Point(0, 0);
-            this.receivedMoney1.Name = "receivedMoney1";
-            this.receivedMoney1.Size = new System.Drawing.Size(709, 733);
-            this.receivedMoney1.TabIndex = 0;
             // 
             // BarraTitulo
             // 
@@ -341,6 +303,7 @@ namespace BMS_WinForm
             this.iconrestaurar.TabIndex = 3;
             this.iconrestaurar.TabStop = false;
             this.iconrestaurar.Visible = false;
+            this.iconrestaurar.Click += new System.EventHandler(this.iconrestaurar_Click);
             // 
             // btnMenu
             // 
@@ -413,13 +376,20 @@ namespace BMS_WinForm
             this.btnGiveFeedBack.UseVisualStyleBackColor = true;
             this.btnGiveFeedBack.Click += new System.EventHandler(this.btnGiveFeedBack_Click);
             // 
-            // giveFeedback1
+            // r2
             // 
-            this.giveFeedback1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.giveFeedback1.Location = new System.Drawing.Point(0, 0);
-            this.giveFeedback1.Name = "giveFeedback1";
-            this.giveFeedback1.Size = new System.Drawing.Size(709, 733);
-            this.giveFeedback1.TabIndex = 5;
+            this.r2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.r2.Location = new System.Drawing.Point(0, 0);
+            this.r2.Name = "r2";
+            this.r2.Size = new System.Drawing.Size(709, 733);
+            this.r2.TabIndex = 8;
+            // 
+            // r1
+            // 
+            this.r1.Location = new System.Drawing.Point(0, 0);
+            this.r1.Name = "r1";
+            this.r1.Size = new System.Drawing.Size(864, 492);
+            this.r1.TabIndex = 7;
             // 
             // homeScreenOf_Cus1
             // 
@@ -429,20 +399,53 @@ namespace BMS_WinForm
             this.homeScreenOf_Cus1.Size = new System.Drawing.Size(709, 733);
             this.homeScreenOf_Cus1.TabIndex = 6;
             // 
-            // r1
+            // giveFeedback1
             // 
-            this.r1.Location = new System.Drawing.Point(0, 0);
-            this.r1.Name = "r1";
-            this.r1.Size = new System.Drawing.Size(864, 492);
-            this.r1.TabIndex = 7;
+            this.giveFeedback1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.giveFeedback1.Location = new System.Drawing.Point(0, 0);
+            this.giveFeedback1.Name = "giveFeedback1";
+            this.giveFeedback1.Size = new System.Drawing.Size(709, 733);
+            this.giveFeedback1.TabIndex = 5;
             // 
-            // r2
+            // customerHome1
             // 
-            this.r2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.r2.Location = new System.Drawing.Point(0, 0);
-            this.r2.Name = "r2";
-            this.r2.Size = new System.Drawing.Size(709, 733);
-            this.r2.TabIndex = 8;
+            this.customerHome1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customerHome1.Location = new System.Drawing.Point(0, 0);
+            this.customerHome1.Name = "customerHome1";
+            this.customerHome1.Size = new System.Drawing.Size(709, 733);
+            this.customerHome1.TabIndex = 4;
+            // 
+            // depositMoneyCus1
+            // 
+            this.depositMoneyCus1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.depositMoneyCus1.Location = new System.Drawing.Point(0, 0);
+            this.depositMoneyCus1.Name = "depositMoneyCus1";
+            this.depositMoneyCus1.Size = new System.Drawing.Size(709, 733);
+            this.depositMoneyCus1.TabIndex = 3;
+            // 
+            // withDrawMoneyCus1
+            // 
+            this.withDrawMoneyCus1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.withDrawMoneyCus1.Location = new System.Drawing.Point(0, 0);
+            this.withDrawMoneyCus1.Name = "withDrawMoneyCus1";
+            this.withDrawMoneyCus1.Size = new System.Drawing.Size(709, 733);
+            this.withDrawMoneyCus1.TabIndex = 2;
+            // 
+            // balanceDetailsCus1
+            // 
+            this.balanceDetailsCus1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.balanceDetailsCus1.Location = new System.Drawing.Point(0, 0);
+            this.balanceDetailsCus1.Name = "balanceDetailsCus1";
+            this.balanceDetailsCus1.Size = new System.Drawing.Size(709, 733);
+            this.balanceDetailsCus1.TabIndex = 1;
+            // 
+            // receivedMoney1
+            // 
+            this.receivedMoney1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.receivedMoney1.Location = new System.Drawing.Point(0, 0);
+            this.receivedMoney1.Name = "receivedMoney1";
+            this.receivedMoney1.Size = new System.Drawing.Size(709, 733);
+            this.receivedMoney1.TabIndex = 0;
             // 
             // CustomerWindowPAge
             // 

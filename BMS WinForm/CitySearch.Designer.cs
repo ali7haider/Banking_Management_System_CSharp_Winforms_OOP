@@ -44,7 +44,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.153846F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.667482F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.25428F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 327F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 329F));
             this.tableLayoutPanel1.Controls.Add(this.txtSearchCity, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 0);
@@ -65,7 +65,7 @@ namespace BMS_WinForm
             this.txtSearchCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearchCity.Location = new System.Drawing.Point(33, 119);
             this.txtSearchCity.Name = "txtSearchCity";
-            this.txtSearchCity.Size = new System.Drawing.Size(499, 36);
+            this.txtSearchCity.Size = new System.Drawing.Size(497, 36);
             this.txtSearchCity.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -81,7 +81,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 208F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(499, 262);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(497, 262);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // btnSearch
@@ -90,7 +90,7 @@ namespace BMS_WinForm
             this.btnSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(311, 3);
+            this.btnSearch.Location = new System.Drawing.Point(309, 3);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(185, 48);
             this.btnSearch.TabIndex = 2;

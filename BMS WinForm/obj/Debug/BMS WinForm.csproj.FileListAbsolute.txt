@@ -85,7 +85,6 @@ D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\ob
 D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CitySearch.resources
 D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CustomerWindowPAge.resources
 D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CustomerHome.resources
-D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.CustomerWindow.resources
 D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.DepositHistory.resources
 D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.DepositMoneyCus.resources
 D:\Study\Semester 2\Banking_Management_System_OOP_CSharp_Winforms\BMS WinForm\obj\Debug\BMS_WinForm.EditCustomer.resources

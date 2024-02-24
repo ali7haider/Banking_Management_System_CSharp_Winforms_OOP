@@ -207,5 +207,24 @@ namespace BMS_WinForm
         }
 
     }
+
+        private void iconrestaurar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            iconrestaurar.Visible = false;
+            iconmaximizar.Visible = true;
+        }
+
+        private void iconcerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void iconminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
+        }
     }
 }

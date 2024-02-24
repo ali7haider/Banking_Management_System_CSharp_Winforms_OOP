@@ -56,13 +56,13 @@ namespace BMS_WinForm
             // 
             this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 197F));
             this.tableLayoutPanel2.Controls.Add(this.label8, 0, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(14, 321);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(197, 67);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(195, 67);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // label8
@@ -80,7 +80,7 @@ namespace BMS_WinForm
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(217, 362);
+            this.label7.Location = new System.Drawing.Point(215, 362);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(230, 29);
             this.label7.TabIndex = 1;
@@ -90,10 +90,10 @@ namespace BMS_WinForm
             // 
             this.txtAvailableDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtAvailableDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAvailableDetails.Location = new System.Drawing.Point(217, 394);
+            this.txtAvailableDetails.Location = new System.Drawing.Point(215, 394);
             this.txtAvailableDetails.Name = "txtAvailableDetails";
             this.txtAvailableDetails.ReadOnly = true;
-            this.txtAvailableDetails.Size = new System.Drawing.Size(644, 36);
+            this.txtAvailableDetails.Size = new System.Drawing.Size(646, 36);
             this.txtAvailableDetails.TabIndex = 3;
             // 
             // txtWithDrawMoneyDetails
@@ -103,7 +103,7 @@ namespace BMS_WinForm
             this.txtWithDrawMoneyDetails.Location = new System.Drawing.Point(14, 264);
             this.txtWithDrawMoneyDetails.Name = "txtWithDrawMoneyDetails";
             this.txtWithDrawMoneyDetails.ReadOnly = true;
-            this.txtWithDrawMoneyDetails.Size = new System.Drawing.Size(197, 36);
+            this.txtWithDrawMoneyDetails.Size = new System.Drawing.Size(195, 36);
             this.txtWithDrawMoneyDetails.TabIndex = 1;
             this.txtWithDrawMoneyDetails.TextChanged += new System.EventHandler(this.txtWithDrawMoneyDetails_TextChanged);
             // 
@@ -112,7 +112,7 @@ namespace BMS_WinForm
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(217, 232);
+            this.label3.Location = new System.Drawing.Point(215, 232);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(194, 29);
             this.label3.TabIndex = 5;
@@ -146,7 +146,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.153846F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.667482F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.25428F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 648F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 650F));
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtWithDrawMoneyDetails, 2, 2);
@@ -255,10 +255,10 @@ namespace BMS_WinForm
             // 
             this.txtTransactDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtTransactDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTransactDetails.Location = new System.Drawing.Point(217, 264);
+            this.txtTransactDetails.Location = new System.Drawing.Point(215, 264);
             this.txtTransactDetails.Name = "txtTransactDetails";
             this.txtTransactDetails.ReadOnly = true;
-            this.txtTransactDetails.Size = new System.Drawing.Size(644, 36);
+            this.txtTransactDetails.Size = new System.Drawing.Size(646, 36);
             this.txtTransactDetails.TabIndex = 8;
             this.txtTransactDetails.TextChanged += new System.EventHandler(this.txtTransactDetails_TextChanged);
             // 
@@ -269,7 +269,7 @@ namespace BMS_WinForm
             this.txtReceivedDetails.Location = new System.Drawing.Point(14, 394);
             this.txtReceivedDetails.Name = "txtReceivedDetails";
             this.txtReceivedDetails.ReadOnly = true;
-            this.txtReceivedDetails.Size = new System.Drawing.Size(197, 36);
+            this.txtReceivedDetails.Size = new System.Drawing.Size(195, 36);
             this.txtReceivedDetails.TabIndex = 9;
             this.txtReceivedDetails.TextChanged += new System.EventHandler(this.txtReceivedDetails_TextChanged);
             // 

@@ -48,7 +48,7 @@ namespace BMS_WinForm
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.153846F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.667482F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 94.25428F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 551F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 553F));
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtDepositMoney, 2, 2);
@@ -91,19 +91,21 @@ namespace BMS_WinForm
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 204F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(288, 262);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(286, 262);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirm.Font = new System.Drawing.Font("Symbol", 8.25F);
             this.btnConfirm.ForeColor = System.Drawing.Color.White;
-            this.btnConfirm.Location = new System.Drawing.Point(106, 3);
+            this.btnConfirm.Location = new System.Drawing.Point(104, 3);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(179, 52);
             this.btnConfirm.TabIndex = 2;
             this.btnConfirm.Text = "Confirm";
-            this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.UseVisualStyleBackColor = false;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // txtDepositMoney
@@ -112,16 +114,16 @@ namespace BMS_WinForm
             this.txtDepositMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDepositMoney.Location = new System.Drawing.Point(20, 162);
             this.txtDepositMoney.Name = "txtDepositMoney";
-            this.txtDepositMoney.Size = new System.Drawing.Size(288, 36);
+            this.txtDepositMoney.Size = new System.Drawing.Size(286, 36);
             this.txtDepositMoney.TabIndex = 1;
             // 
             // dateDepositMoney
             // 
             this.dateDepositMoney.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateDepositMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateDepositMoney.Location = new System.Drawing.Point(314, 162);
+            this.dateDepositMoney.Location = new System.Drawing.Point(312, 162);
             this.dateDepositMoney.Name = "dateDepositMoney";
-            this.dateDepositMoney.Size = new System.Drawing.Size(547, 36);
+            this.dateDepositMoney.Size = new System.Drawing.Size(549, 36);
             this.dateDepositMoney.TabIndex = 6;
             // 
             // label3
@@ -129,9 +131,9 @@ namespace BMS_WinForm
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(314, 116);
+            this.label3.Location = new System.Drawing.Point(312, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(547, 43);
+            this.label3.Size = new System.Drawing.Size(549, 43);
             this.label3.TabIndex = 5;
             this.label3.Text = "Enter Date :";
             // 
@@ -142,22 +144,23 @@ namespace BMS_WinForm
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 116);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 43);
+            this.label1.Size = new System.Drawing.Size(286, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Amount :";
             // 
             // btnViewDepositHistory
             // 
             this.btnViewDepositHistory.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnViewDepositHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewDepositHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnViewDepositHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewDepositHistory.Font = new System.Drawing.Font("Roboto Condensed", 13F);
             this.btnViewDepositHistory.ForeColor = System.Drawing.Color.White;
-            this.btnViewDepositHistory.Image = global::BMS_WinForm.Properties.Resources.blueback;
-            this.btnViewDepositHistory.Location = new System.Drawing.Point(664, 30);
+            this.btnViewDepositHistory.Location = new System.Drawing.Point(664, 37);
             this.btnViewDepositHistory.Name = "btnViewDepositHistory";
-            this.btnViewDepositHistory.Size = new System.Drawing.Size(197, 55);
+            this.btnViewDepositHistory.Size = new System.Drawing.Size(197, 41);
             this.btnViewDepositHistory.TabIndex = 7;
             this.btnViewDepositHistory.Text = "View Deposit History";
-            this.btnViewDepositHistory.UseVisualStyleBackColor = true;
+            this.btnViewDepositHistory.UseVisualStyleBackColor = false;
             this.btnViewDepositHistory.Click += new System.EventHandler(this.btnViewDepositHistory_Click);
             // 
             // DepositMoneyCus

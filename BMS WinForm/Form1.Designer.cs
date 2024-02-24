@@ -37,24 +37,24 @@ namespace BMS_WinForm
             this.GitHubLink = new System.Windows.Forms.LinkLabel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnlogoInicio = new System.Windows.Forms.PictureBox();
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.iconcerrar = new System.Windows.Forms.PictureBox();
+            this.btnMenu = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.iconminimizar = new System.Windows.Forms.PictureBox();
             this.btnLogIn = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUserName = new System.Windows.Forms.TextBox();
-            this.btnlogoInicio = new System.Windows.Forms.PictureBox();
-            this.iconcerrar = new System.Windows.Forms.PictureBox();
-            this.btnMenu = new System.Windows.Forms.PictureBox();
-            this.iconminimizar = new System.Windows.Forms.PictureBox();
             this.MenuVertical.SuspendLayout();
-            this.BarraTitulo.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).BeginInit();
+            this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -158,6 +158,20 @@ namespace BMS_WinForm
             this.button2.Text = "BANKING MANAGEMENT ";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // btnlogoInicio
+            // 
+            this.btnlogoInicio.BackgroundImage = global::BMS_WinForm.Properties.Resources.logo;
+            this.btnlogoInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnlogoInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnlogoInicio.ErrorImage = null;
+            this.btnlogoInicio.Location = new System.Drawing.Point(79, 36);
+            this.btnlogoInicio.Margin = new System.Windows.Forms.Padding(4);
+            this.btnlogoInicio.Name = "btnlogoInicio";
+            this.btnlogoInicio.Size = new System.Drawing.Size(168, 117);
+            this.btnlogoInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnlogoInicio.TabIndex = 0;
+            this.btnlogoInicio.TabStop = false;
+            // 
             // BarraTitulo
             // 
             this.BarraTitulo.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -170,6 +184,33 @@ namespace BMS_WinForm
             this.BarraTitulo.Name = "BarraTitulo";
             this.BarraTitulo.Size = new System.Drawing.Size(1400, 667);
             this.BarraTitulo.TabIndex = 1;
+            // 
+            // iconcerrar
+            // 
+            this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconcerrar.ErrorImage = global::BMS_WinForm.Properties.Resources.icon_cerrar2;
+            this.iconcerrar.Image = global::BMS_WinForm.Properties.Resources.icon_cerrar2;
+            this.iconcerrar.Location = new System.Drawing.Point(1362, 7);
+            this.iconcerrar.Margin = new System.Windows.Forms.Padding(4);
+            this.iconcerrar.Name = "iconcerrar";
+            this.iconcerrar.Size = new System.Drawing.Size(24, 22);
+            this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconcerrar.TabIndex = 1;
+            this.iconcerrar.TabStop = false;
+            this.iconcerrar.Click += new System.EventHandler(this.iconcerrar_Click);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.Location = new System.Drawing.Point(11, 7);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(47, 43);
+            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMenu.TabIndex = 0;
+            this.btnMenu.TabStop = false;
             // 
             // panel1
             // 
@@ -186,6 +227,20 @@ namespace BMS_WinForm
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(707, 667);
             this.panel1.TabIndex = 5;
+            // 
+            // iconminimizar
+            // 
+            this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconminimizar.Image = global::BMS_WinForm.Properties.Resources.icon_minimizar;
+            this.iconminimizar.Location = new System.Drawing.Point(634, 8);
+            this.iconminimizar.Margin = new System.Windows.Forms.Padding(4);
+            this.iconminimizar.Name = "iconminimizar";
+            this.iconminimizar.Size = new System.Drawing.Size(24, 22);
+            this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconminimizar.TabIndex = 4;
+            this.iconminimizar.TabStop = false;
+            this.iconminimizar.Click += new System.EventHandler(this.iconminimizar_Click);
             // 
             // btnLogIn
             // 
@@ -272,61 +327,6 @@ namespace BMS_WinForm
             this.txtUserName.Size = new System.Drawing.Size(387, 32);
             this.txtUserName.TabIndex = 0;
             // 
-            // btnlogoInicio
-            // 
-            this.btnlogoInicio.BackgroundImage = global::BMS_WinForm.Properties.Resources.logo;
-            this.btnlogoInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnlogoInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnlogoInicio.ErrorImage = null;
-            this.btnlogoInicio.Location = new System.Drawing.Point(79, 36);
-            this.btnlogoInicio.Margin = new System.Windows.Forms.Padding(4);
-            this.btnlogoInicio.Name = "btnlogoInicio";
-            this.btnlogoInicio.Size = new System.Drawing.Size(168, 117);
-            this.btnlogoInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnlogoInicio.TabIndex = 0;
-            this.btnlogoInicio.TabStop = false;
-            // 
-            // iconcerrar
-            // 
-            this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconcerrar.ErrorImage = global::BMS_WinForm.Properties.Resources.icon_cerrar2;
-            this.iconcerrar.Image = global::BMS_WinForm.Properties.Resources.icon_cerrar2;
-            this.iconcerrar.Location = new System.Drawing.Point(1362, 7);
-            this.iconcerrar.Margin = new System.Windows.Forms.Padding(4);
-            this.iconcerrar.Name = "iconcerrar";
-            this.iconcerrar.Size = new System.Drawing.Size(24, 22);
-            this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconcerrar.TabIndex = 1;
-            this.iconcerrar.TabStop = false;
-            this.iconcerrar.Click += new System.EventHandler(this.iconcerrar_Click);
-            // 
-            // btnMenu
-            // 
-            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.Location = new System.Drawing.Point(11, 7);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(47, 43);
-            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMenu.TabIndex = 0;
-            this.btnMenu.TabStop = false;
-            // 
-            // iconminimizar
-            // 
-            this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconminimizar.Image = global::BMS_WinForm.Properties.Resources.icon_minimizar;
-            this.iconminimizar.Location = new System.Drawing.Point(634, 8);
-            this.iconminimizar.Margin = new System.Windows.Forms.Padding(4);
-            this.iconminimizar.Name = "iconminimizar";
-            this.iconminimizar.Size = new System.Drawing.Size(24, 22);
-            this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconminimizar.TabIndex = 4;
-            this.iconminimizar.TabStop = false;
-            this.iconminimizar.Click += new System.EventHandler(this.iconminimizar_Click);
-            // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -344,12 +344,12 @@ namespace BMS_WinForm
             this.Text = "Form1";
             this.MenuVertical.ResumeLayout(false);
             this.MenuVertical.PerformLayout();
-            this.BarraTitulo.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).EndInit();
+            this.BarraTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
             this.ResumeLayout(false);
 
